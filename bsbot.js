@@ -2,7 +2,7 @@ console.log("Initialising function...");
 (function() {  
     console.log("We are inside the function!");
     var waitPeriod = 3650000;
-    $('#hourlyBeatsTimerHolder > div button').click();
+    $('#hourlyBeatsTimerHolder > div button').click(console.log("Clicked!"));
 
     setTimeout(function(){
         console.log("setTimeout function invoked");
